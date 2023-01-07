@@ -1,7 +1,13 @@
-import React from "react";
+import DragAndDrop from '../components/DragAndDrop';
+import Title from '../components/Title';
 
 function App() {
-  return <div>sfd</div>;
+  return (
+    <div>
+      <Title />
+      <DragAndDrop />
+    </div>
+  );
 }
 
 export default App;
